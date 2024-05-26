@@ -1,0 +1,11 @@
+import { render } from '@testing-library/react'
+import { {{pascalCase name}} } from './{{pascalCase name}}'
+import { describe, test, expect } from 'vitest'
+
+describe('{{pascalCase name}} component', () => {
+  test('renders {{pascalCase name}} component', () => {
+    const { getByText } = render(<{{pascalCase name}} />)
+
+    expect(getByText('{{pascalCase name}}')).toBeDefined()
+  })
+})
